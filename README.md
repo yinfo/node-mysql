@@ -13,5 +13,6 @@ blackList.init( {dir: 'app/black-list', ttl: 11 * 60 * 1000});//11 минут
 **Дамп MySql**
 test_users.sql в корневой папке  
 **Структура базы**
-База содержит 1 таблицу users с двумя полями id и password.
+База содержит 1 таблицу users с двумя полями id и password. 
+
 
