@@ -1,7 +1,10 @@
 **Токен**
 Для защищенной зоны используется middlewares/checkAuth.js
+
 const token = req.header('x-auth')
+
 При успешной проверке выдается новый токен (с тем же ID пользователя)
+
 res.header('x-auth', newToken);
 
 **Стоп-лист**
